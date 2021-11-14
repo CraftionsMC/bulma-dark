@@ -1,2 +1,4 @@
 # Don't ignore .npmignore
 !.npmignore
+
+node_modules/
