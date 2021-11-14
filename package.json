@@ -1,5 +1,5 @@
 {
-  "name": "bulma-prefers-dark",
+  "name": "@craftions/bulma-dark",
   "version": "0.1.0-beta.1",
   "description": "Bulma extension to add prefers-color-scheme dark support",
   "main": "bulma-prefers-dark.sass",
@@ -7,7 +7,7 @@
   "style": "bulma-prefers-dark/css/bulma-prefers-dark.min.css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jloh/bulma-prefers-dark.git"
+    "url": "git+https://github.com/CraftionsMC/bulma-dark"
   },
   "keywords": [
     "css",
@@ -22,6 +22,13 @@
     "name": "James Loh",
     "url": "https://jloh.co"
   },
+  "contributes": [
+    {
+      "name": "Ben Siebert",
+      "url": "https://mctzock.de",
+      "email": "ben@craftions.net"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jloh/bulma-prefers-dark/issues"
@@ -70,5 +77,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "private": false
 }
